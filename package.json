@@ -1,0 +1,29 @@
+{
+  "name": "angular-master-lightbox",
+  "version": "1.0.0",
+  "dependencies": {
+
+  },
+  "description": " ",
+  "main": "src/lightbox.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Defina-se/angular-master-lightbox.git"
+  },
+  "keywords": [
+    "video",
+    "ng-clappr",
+    "clappr",
+    "player",
+    "mp4"
+  ],
+  "author": "Jayr Motta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Defina-se/angular-master-lightbox/issues"
+  },
+  "homepage": "https://github.com/Defina-se/angular-master-lightbox#readme"
+}

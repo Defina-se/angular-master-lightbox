@@ -1,0 +1,23 @@
+<div class="lightbox">
+    <div class="lightbox-tiles">
+        <span data-ng-repeat="i in images" data-ng-click="displayImage(i)">
+            <img width="{{tileWidth}}px" height="{{tileHeight}}px" data-ng-src="{{source(i)}}">
+        </span>
+    </div>
+    <div modal="showModal">
+        <div class="lightbox-header">
+            {{selectedImg.header}}
+            <button class="lightbox-close" data-ng-click="showModal=false;">x</button>
+        </div>
+        <div class="lightbox-content">
+            <div class="lightbox-image">
+                <button class="lightbox-prev" data-ng-show="hasPrev()" data-ng-click="prev()">prev</button>
+                <img data-ng-src={{source(selectedImg)}}>
+            </div>
+            <div class="lightbox-description">
+                {{selectedImg.description}}
+                <button class="lightbox-next" data-ng-show="hasNext()" data-ng-click="next()">next</button>
+            </div>
+        </div>
+    </div>
+</div>

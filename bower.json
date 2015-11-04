@@ -1,0 +1,27 @@
+{
+  "name": "angular-master-lightbox",
+  "version": "1.0.0",
+  "main": "src/lightbox.js",
+  "dependencies": {
+    "angular": "~1.3.18"
+  },
+  "keywords": [
+    "imagem",
+    "angularjs",
+    "lightbox",
+    "angular lightbox"
+  ],
+  "homepage": "https://github.com/Defina-se/angular-master-lightbox",
+  "authors": [
+    "Washington Soares"
+  ],
+  "description": "",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
