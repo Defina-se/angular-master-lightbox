@@ -5,8 +5,8 @@ angular.module('angularMasterLightbox',[])
     return {
         restrict: 'E',
         transclude: true,
-        template: '<a href="{{images}}" data-lightbox="image-1" data-title="" class="link-img-lightbox"> ' +
-                      '<img height="360" style="width: 100%;max-height: 360px" src="{{images}}" alt="">' +
+        template: '<a href="{{images}}" data-lightbox="image-1" data-title="" class="link-img-lightbox">' +
+                      '<img src="{{images}}" alt="">' +
                   '</a>',
         scope: {
             images: '='
